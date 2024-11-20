@@ -1,3 +1,8 @@
+Datasets used:
+https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+
+Setup instructions:
+
 - Clone repository from github
 - Extract repository contents
 - Open a terminal in the root of the extracted folder
@@ -5,15 +10,15 @@
 - Ensure a camera is connected
 
 - Run the following two commands in the terminal:
-    - Create a virtual environment (optional but recommended):
+    - Create a virtual environment (optional but recommended): \n
     `python -m venv venv`
     
-    - Run the virtual environment
+    - Run the virtual environment \n
     `source venv/bin/activate` - if you have Linux/Mac
     `venv\Scripts\activate` - if you have Windows
 
-    - Install the required packages
+    - Install the required packages \n
     `pip install -r requirements.txt`
 
-    - Run the model
+    - Run the model \n
     `python model_runner.py`
